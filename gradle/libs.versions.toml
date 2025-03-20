@@ -1,0 +1,35 @@
+[versions]
+agp = "8.6.0"
+databindingRuntime = "8.8.1"
+fastadapter = "5.7.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lifecycleViewmodel = "2.8.7"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+roomRuntime = "2.6.1"
+
+[libraries]
+databinding-runtime = { module = "androidx.databinding:databinding-runtime", version.ref = "databindingRuntime" }
+fastadapter = { module = "com.mikepenz:fastadapter", version.ref = "fastadapter" }
+fastadapter-extensions-binding = { module = "com.mikepenz:fastadapter-extensions-binding", version.ref = "fastadapter" }
+fastadapter-extensions-diff = { module = "com.mikepenz:fastadapter-extensions-diff", version.ref = "fastadapter" }
+fastadapter-extensions-ui = { module = "com.mikepenz:fastadapter-extensions-ui", version.ref = "fastadapter" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleViewmodel" }
+lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
